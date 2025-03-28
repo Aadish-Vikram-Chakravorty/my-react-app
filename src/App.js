@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useState, useEffect } from 'react';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Top Users</h1>
+      <p>View all the top users</p>
+      <image src="https://images.unsplash.com/photo-1522071820081-009f0129c71a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" />
+      <image src="https://images.unsplash.com/photo-1522071820081-009f0129c71a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" />
+      <image src="https://images.unsplash.com/photo-1522071820081-009f0129c71a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" />
     </div>
   );
 }
